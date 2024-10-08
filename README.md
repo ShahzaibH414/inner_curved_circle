@@ -14,6 +14,8 @@ Then run:
 
 flutter pub get
 
+
+```dart
 import 'package:flutter/material.dart';
 import 'package:custom_clipper_package/custom_clipper_package.dart'; // Import the package
 
@@ -69,3 +71,4 @@ final size = MediaQuery.of(context).size;
     );
 }
 }
+```
