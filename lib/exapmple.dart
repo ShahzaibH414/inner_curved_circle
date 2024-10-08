@@ -6,14 +6,15 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MyHomePage(title: 'Custom Clipper Example'),
+    return const MaterialApp(
+      home: MyHomePage(title: 'Inner Curved Circle'),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
   final String title;
+
   const MyHomePage({super.key, required this.title});
 
   @override
@@ -37,7 +38,7 @@ class MyHomePage extends StatelessWidget {
                 children: [
                   Icon(Icons.star, color: Colors.white, size: size.width * 0.1),
                   Text(
-                    'Premium Member',
+                    'Inner Curved Circle',
                     style: TextStyle(
                       fontSize: size.width * 0.06,
                       fontWeight: FontWeight.w400,
