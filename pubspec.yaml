@@ -1,7 +1,7 @@
 name: inner_curved_circle
 description: "A Package that easily lets you create inner curved Containers"
-version: 0.0.1
-homepage: https://github.com/ShahzaibH414/InnerCurveContainer.git
+version: 0.0.2
+homepage: https://github.com/ShahzaibH414/inner_curved_circle.git
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
